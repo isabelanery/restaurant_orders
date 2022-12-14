@@ -58,12 +58,12 @@ A lanchonete :baguette_bread: :cook: Pão na Chapa :baguette_bread: :cook: possu
 
   - `python3 -m pip install -r dev-requirements.txt`
   
-  4. Crie uma branch a partir da branch `master`
+  4. Crie uma branch a partir da branch `main`
 
-  - Verifique que você está na branch `master`
+  - Verifique que você está na branch `main`
     - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `master`
-    - Exemplo: `git checkout master`
+  - Se não estiver, mude para a branch `main`
+    - Exemplo: `git checkout main`
   - Crie uma branch à qual você vai submeter os `commits` do seu projeto
     - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
     - Exemplo: `git checkout -b joaozinho-sd-0x-project-restaurant-orders`
