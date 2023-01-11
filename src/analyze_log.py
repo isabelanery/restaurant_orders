@@ -11,7 +11,8 @@ def convert_log_to_dict(path_to_file, field_names):
             reader = csv.DictReader(file, fieldnames=field_names)
             return list(reader)
     except FileNotFoundError as e:
-        raise FileNotFoundError(f"Arquivo inexistente: '{path_to_file}'") from e
+        raise FileNotFoundError(
+            f"Arquivo inexistente: '{path_to_file}'") from e
 
 
 def filter_orders_by_customer(orders_log: list, customer: str):
